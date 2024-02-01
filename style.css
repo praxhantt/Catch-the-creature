@@ -1,0 +1,156 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Dragon Hunter';
+  color: #F4EAE0;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+
+body{
+  overflow: hidden;
+}
+
+.screen{
+  height: 100%;
+  width: 100%;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.screen h1{
+  font-size: 80px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  transition: all ease 0.2s;
+  cursor: default;
+
+}
+.screen button{
+  padding: 18px 35px;
+  font-size: 15px;
+  background-color: transparent;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+
+.screen button:active{
+  scale: 0.90;
+
+ 
+}
+
+.screen button:hover{
+  background-color: #F4EAE0;
+  color: #191919;
+}
+
+
+
+.screen h2{
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+
+.elem-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+
+}
+
+.elem{
+  height: 120px;
+  width: 120px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: grab;
+  transition: all ease 0.3s;
+
+}
+
+.elem:active{
+  cursor: grabbing;
+  scale: 0.90;
+}
+
+.elem:hover{
+  scale: 1.1;
+  background-color: #F4EAE0;
+
+}
+
+.elem:hover h4{
+  color:#191919;
+}
+
+.elem img{
+  height: 90px;
+}
+
+.elem h4{
+  font-size: 12px;
+  font-weight: 100;
+}
+
+
+.time-score{
+  width: 100%;
+  padding: 25px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #F4EAE0;
+
+}
+
+.time-score h4{
+  font-size: 25px;
+  
+}
+
+
+
+.time-score h5{
+  font-size: 25px;
+
+}
+
+.playground{
+  height: 95%;
+  width: 100%;
+  position: relative;
+}
+
+.startbtn{
+  margin-bottom: 20px;
+
+}
+
+.playground .active {
+  transition: all ease 0.3s;
+}
+
+.playground img{
+  height: 100px;
+  position: absolute;
+}
